@@ -9,12 +9,12 @@
 #     steps:
 #       - name: Print
 #         run: echo "Hello, world!"
-name: Checkout Example
+# name: Checkout Example
 
-on: workflow_dispatch
-jobs:
-  checkout-repository:
-    runs-on: ubuntu-20.04
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+# on: workflow_dispatch
+# jobs:
+#   checkout-repository:
+#     runs-on: ubuntu-20.04
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v2
